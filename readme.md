@@ -1,6 +1,5 @@
-README TEMPLATE
 
-<h3 align="center">PROJECT TOPIC</h3>
+<h3 align="center">Active Record - Ruby on Rails</h3>
 
 <div align="center">
 
@@ -11,7 +10,7 @@ README TEMPLATE
 [![Made By](https://img.shields.io/badge/Made%20By-Uduak%20John-brightgreen)](https://github.com/udberg)
 [![Made By](https://img.shields.io/badge/Made%20By-Murodjon%20Tursunpulatov-brightgreen)](https://github.com/udberg)
 [![Twitter Follow](https://img.shields.io/twitter/follow/juduak_?label=Follow%20Uduak%20on%20Twitter&style=social)](https://twitter.com/juduak_)
-[![Twitter Follow](https://img.shields.io/twitter/follow/MurodjonTursun5?label=Follow%20Uduak%20on%20Twitter&style=social)](https://twitter.com/MurodjonTursun5)
+[![Twitter Follow](https://img.shields.io/twitter/follow/MurodjonTursun5?label=Follow%20Murod%20on%20Twitter&style=social)](https://twitter.com/MurodjonTursun5)
 
 </div>
 
