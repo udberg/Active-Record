@@ -8,6 +8,7 @@ AllCops:
     - "Rakefile"
     - "node_modules/**/*"
     - "vendor/bundle/**/*"
+    - "test/**/*"
 
   DisplayCopNames: true
 
@@ -41,6 +42,8 @@ Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
+Style/AlignHash:
+  Enabled: false
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
