@@ -4,6 +4,7 @@ AllCops:
     - "bin/*" 
     - "config/**/*"
     - "Guardfile"
+    - "Gemfile"
     - "Rakefile"
     - "node_modules/**/*"
     - "vendor/bundle/**/*"
