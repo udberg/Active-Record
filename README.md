@@ -1,6 +1,5 @@
-README TEMPLATE
 
-<h3 align="center">PROJECT TOPIC</h3>
+<h3 align="center">Active Record - Ruby on Rails</h3>
 
 <div align="center">
 
@@ -11,7 +10,7 @@ README TEMPLATE
 [![Made By](https://img.shields.io/badge/Made%20By-Uduak%20John-brightgreen)](https://github.com/udberg)
 [![Made By](https://img.shields.io/badge/Made%20By-Murodjon%20Tursunpulatov-brightgreen)](https://github.com/udberg)
 [![Twitter Follow](https://img.shields.io/twitter/follow/juduak_?label=Follow%20Uduak%20on%20Twitter&style=social)](https://twitter.com/juduak_)
-[![Twitter Follow](https://img.shields.io/twitter/follow/MurodjonTursun5?label=Follow%20Uduak%20on%20Twitter&style=social)](https://twitter.com/MurodjonTursun5)
+[![Twitter Follow](https://img.shields.io/twitter/follow/MurodjonTursun5?label=Follow%20Murod%20on%20Twitter&style=social)](https://twitter.com/MurodjonTursun5)
 
 </div>
 
@@ -28,9 +27,29 @@ README TEMPLATE
 
 ## 🧐 About <a name = "about"></a>
 <h3 align="center"> 
-Project Description 
-</h3>
+In this project, we built an application similar to Reddit(Micro-reddit) using rails where a user can create a post and add comments to it. This project puts our knowledge of active record, models, and associations to the tests in a full functioning application and use case. The parameters for creating the user and post functionalities are shown below:
 
+* User  
+username:string [unique, 4-12 chars, present]
+*   email:string [unique, present]
+*   password:string [6-16 chars, present]
+*   id:integer
+*   created_at:datetime
+*   updated_at:datetime
+*   has_many posts
+
+* Posts  
+title:string [unique, present]
+*   body:text [present]
+*   author_id:integer [present]
+*   id:integer
+*   created_at:datetime
+*   updated_at:datetime
+*   belongs_to author
+
+Use whatever format feels best to you.
+
+</h3>
 
 ---
 
@@ -47,10 +66,11 @@ Project Description
 
 - git clone https://github.com/udberg/ActiveRecord
 
-- cd 
+- cd into ActiveRecord
 
-- Unpack (if downloaded);
+- Make all required installations if on available
 
+Run 'rails server' and follow the instructions displayed.
 
 
 ## ✒️  Authors <a name = "author"></a>
