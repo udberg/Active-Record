@@ -27,9 +27,29 @@
 
 ## 🧐 About <a name = "about"></a>
 <h3 align="center"> 
-Project Description 
-</h3>
+In this project, we built an application similar to Reddit(Micro-reddit) using rails where a user can create a post and add comments to it. This project puts our knowledge of active record, models, and associations to the tests in a full functioning application and use case. The parameters for creating the user and post functionalities are shown below:
 
+* Authors  
+username:string [unique, 4-12 chars, present]
+*   email:string [unique, present]
+*   password:string [6-16 chars, present]
+*   id:integer
+*   created_at:datetime
+*   updated_at:datetime
+*   has_many posts
+
+* Posts  
+title:string [unique, present]
+*   body:text [present]
+*   author_id:integer [present]
+*   id:integer
+*   created_at:datetime
+*   updated_at:datetime
+*   belongs_to author
+
+Use whatever format feels best to you.
+
+</h3>
 
 ---
 
@@ -37,7 +57,8 @@ Project Description
 
 - Ruby
 - Ruby on Rails
-
+- HTML
+- CSS
 
 ### 🛠 Installing <a name = "installing"></a>
 
@@ -45,10 +66,11 @@ Project Description
 
 - git clone https://github.com/udberg/ActiveRecord
 
-- cd 
+- cd into ActiveRecord
 
-- Unpack (if downloaded);
+- Make all required installations if on available
 
+Run 'rails server' and follow the instructions displayed.
 
 
 ## ✒️  Authors <a name = "author"></a>
