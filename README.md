@@ -37,8 +37,7 @@ Project Description
 
 - Ruby
 - Ruby on Rails
-- HTML
-- CSS
+
 
 ### 🛠 Installing <a name = "installing"></a>
 
