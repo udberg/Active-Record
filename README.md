@@ -29,7 +29,7 @@
 <h3 align="center"> 
 In this project, we built an application similar to Reddit(Micro-reddit) using rails where a user can create a post and add comments to it. This project puts our knowledge of active record, models, and associations to the tests in a full functioning application and use case. The parameters for creating the user and post functionalities are shown below:
 
-* Authors  
+* User  
 username:string [unique, 4-12 chars, present]
 *   email:string [unique, present]
 *   password:string [6-16 chars, present]
