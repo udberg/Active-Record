@@ -1,4 +1,3 @@
-
 <h3 align="center">Active Record - Ruby on Rails</h3>
 
 <div align="center">
